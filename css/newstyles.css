@@ -1,0 +1,17 @@
+.left {
+  float: left;
+  width: 47%;
+}
+.right {
+  float: right;
+  width: 47%;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div {
+  margin-bottom: 50px;
+  padding: 30px;
+}
